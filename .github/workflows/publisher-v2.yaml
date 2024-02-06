@@ -14,7 +14,6 @@ jobs:
       - name: Download .hex file from latest release
         uses: dsaltares/fetch-gh-release-asset@master
         with:
-          repo: "your-username/your-repository"
           version: "latest"
           file: "*.hex"
           target: "./"
