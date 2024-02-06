@@ -12,10 +12,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download .hex file from latest release
-        uses: dsaltares/fetch-gh-release-asset@master
+        uses: robinraju/release-downloader@v1.9
         with:
-          version: "latest"
-          file: "*.hex"
+          latest: true
+          filename: "*.hex"
           target: "./"
           token: ${{ secrets.GITHUB_TOKEN }}
 
