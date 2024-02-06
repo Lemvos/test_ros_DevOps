@@ -1,0 +1,25 @@
+name: Upload HEX File
+
+on:
+  workflow_call:
+    inputs:
+      hex_file:
+        required: true
+        description: "The HEX file to upload"
+    secrets:
+      GITHUB_TOKEN:
+        required: true
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact file
+        run: |
+          hex_file_name=$(cat ${{ inputs.hex_file }})
+          echo "Uploading artifact: $hex_file_name"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.CURRENT_HEX_FILE }}
+          path: ${{ env.CURRENT_HEX_FILE }}
