@@ -3,3 +3,8 @@ repositories:
     type: git
     url: https://github.com/Lemvos/ntrip_client.git
     version: master
+  ublox_ros2_driver:
+    type: git
+    url: https://github.com/Lemvos/ublox_ros2_Driver.git
+    version: ros2
+  
