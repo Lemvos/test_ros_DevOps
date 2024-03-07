@@ -7,4 +7,7 @@ repositories:
     type: git
     url: https://github.com/Lemvos/ublox_ros2_Driver.git
     version: ros2
-  
+  negotiated:
+    type: git
+    url: https://github.com/osrf/negotiated.git
+    version: master
