@@ -1,0 +1,252 @@
+Package: ros-humble-negotiated-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.03.07.12.55
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-negotiated
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 4483
+Depends: ros-humble-negotiated (= 0-2024.03.07.12.55)
+Filename: ./ros-humble-negotiated-dbgsym_0-2024.03.07.12.55_amd64.ddeb
+Size: 3833160
+MD5sum: b4ddf2fd04e575c20906fd84b6a71c53
+SHA1: 5de560ac48e9baa4935b46ba505896350315fc56
+SHA256: d5569e367aa4a2de1448353a5c165270bf7eeab4d45b6a7f1049913dbb8b4241
+SHA512: b14c5869aa25df2db426c8975701b1985b5a9212fb42bf3608cc9daded3ce4802c7b608fcfb79f9615d23a3207e56e5f1afe04ec9e3fe0eaaff31eccb071886b
+Description: debug symbols for ros-humble-negotiated
+Build-Ids: 7f11d6348ea3ea454622cfa14308eadaedcbfe68
+
+Package: ros-humble-negotiated-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.03.07.12.57
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-negotiated-examples
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 21583
+Depends: ros-humble-negotiated-examples (= 0-2024.03.07.12.57)
+Filename: ./ros-humble-negotiated-examples-dbgsym_0-2024.03.07.12.57_amd64.ddeb
+Size: 17316100
+MD5sum: 0ce34464fb4e2e31bd049669b2cb938b
+SHA1: 9dd1ce3eca8cd8de33223acb01bc64b468abf924
+SHA256: 8f1f07167bc6534037184b601be20b796e3140246e3d55bf8356e16e3bd239e0
+SHA512: aa314c37f8fa7895f3e7653c386585aacc7ce370fd2f2b31a781bb6e0e4b5d5854eea3b0d309ba11a4a0e9f3c0d4917946c4e1692be96e4c1985ea38ff2bfbcb
+Description: debug symbols for ros-humble-negotiated-examples
+Build-Ids: 00bd10afe09bb52bfbdfb9e009be6700b8ecf01f 016f0fc40d1d2ff7eb53c90dd9bdd189993be576 2435141f9fd24fd46cf944f0aef9658b7cb1ab10 3c1c8a945d542d86058af5f22bab68202133882b 3d636e7a2b090b6ab764152f09f19cb2d4115871 445a2a956246c1459d56be801f7ccaa7ccc31a56 540fb5acadc23de3507b3970353a0a464cd0772b 56ed3f2e1a71ee02f98f2f33e592e8c0a3b72feb 5a39c31c5220fc448122f09508d91fb55789ec12 6b369e57a8ba19809cd6f5c3b428acf380fe882f 86c7e18e37cb63b8d0976c1755ba122fdb64a89c 9446025a2101a7e334a7328f6df940d0c7e43b7c a6e11a361969c597279cc482f2f64645469652b4 dcb452393ae64402279dc9b459e9c1a1fec2f7a5 de31adb1f549c4b75c44f2cf606c9688698679ae f06b3a0b72630038b81d61b9daf93c12a1fceaf5 fcd90c90942745e444c104dfdb95775a86f8c4fd
+
+Package: ros-humble-negotiated-examples
+Architecture: amd64
+Version: 0-2024.03.07.12.57
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 3994
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-launch, ros-humble-launch-ros, ros-humble-negotiated, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclcpp-lifecycle, ros-humble-std-msgs
+Filename: ./ros-humble-negotiated-examples_0-2024.03.07.12.57_amd64.deb
+Size: 475952
+MD5sum: 9b8bdd1dca9cdd81bde15e7cccd701c4
+SHA1: cd711ad69941570f3aef998f79281c6f01dc6e8d
+SHA256: 6826bf7e0fc98af9155832d9a593f6a3b0c67b6273ebf3556541860b2d4b5d3d
+SHA512: 2476693c71d64afaced2ddda3fc8e377778114805e81d40d0d045ede0f82aa920030c465584990ff37d8305ea2c513fc7a92f6a9ea73fa0a9ac396c79c8b121e
+Description: Examples for negotiated publishers/subscriptions
+
+Package: ros-humble-negotiated-interfaces-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.03.07.12.54
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-negotiated-interfaces
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 582
+Depends: ros-humble-negotiated-interfaces (= 0-2024.03.07.12.54)
+Filename: ./ros-humble-negotiated-interfaces-dbgsym_0-2024.03.07.12.54_amd64.ddeb
+Size: 418856
+MD5sum: ff7e65f44f1e081e0d5bce8a869b99ac
+SHA1: c57019018e0a3756fffe0533044af2ac544003b2
+SHA256: 62cddaa14fc568e95b18bbd82c46001f0cba5d1506d0beeeb3ce4b1d23dd02a7
+SHA512: ad1a1b2442f4e3552c334ec9db2a1e11c0755a1ecf27e4777206c55482f9e2080b46ea9bd8a564af4362c6a033e1e437e859e0c042638a538c822a9c2fd80a67
+Description: debug symbols for ros-humble-negotiated-interfaces
+Build-Ids: 06f92ef585df6a96ac8cd2409f946e0dac6e93e9 1874aac580882147322c784a24453cfa75b32b90 2e386b63b66da0f3e2f95e2222f07382f0141d73 2f4d424a889fe213ce862cb86b26aee74e748928 36ad06bf54b400aeea2018fad3a6125b64a8804f 5976cb0e1c7d87500f61e0377cf037139baca590 6dfa25d7a009c241b9cb4e22032d3c247e53e5b2 a7c481777a59e3042e026852d47abc2996420571 b0f694ec74c981cb4fbba1b153e5365ed51b552e d2334330d1a872d0cc06b323f9fd15ed6eaefafa eaf67fcc35a9c0c95d0351a9ee2d7bf6d64dc358 faf5736ab50a97e94c24b269d79003dbc6d7a8be
+
+Package: ros-humble-negotiated-interfaces
+Architecture: amd64
+Version: 0-2024.03.07.12.54
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 773
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-humble-fastcdr, ros-humble-rosidl-default-runtime
+Filename: ./ros-humble-negotiated-interfaces_0-2024.03.07.12.54_amd64.deb
+Size: 65650
+MD5sum: 36c6eb32ad521bb7ff6e2a423703cf0c
+SHA1: c6d4a916cb53afd990afaf07562f54e5906cd774
+SHA256: 7896106ad04c62b87e2edfadc1d271f6a255d4be12f91e2bb5de054c1c75c6fe
+SHA512: fc2c9dea6d1bf33d0c8b65db861cceff826bdc1bf2e0b8e409bdd1a91ae2c6fc3ba53826b969e674cbd693eea1222e56b81c20236e79f4915f8957b67f7d17ca
+Description: A package containing the negotiation message definitions.
+
+Package: ros-humble-negotiated
+Architecture: amd64
+Version: 0-2024.03.07.12.55
+Priority: optional
+Section: misc
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Installed-Size: 897
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-negotiated-interfaces, ros-humble-rclcpp
+Filename: ./ros-humble-negotiated_0-2024.03.07.12.55_amd64.deb
+Size: 173590
+MD5sum: e9ea8ad111640ed42d40fd62a392869b
+SHA1: d870f47b8b293238bf1fedbc9427166902aa152b
+SHA256: faa11233140622e1883d368a10007660403685028cedbddbca55b106fc77d32f
+SHA512: 9c3093b6d44e09ab9336ec723644dbc72b326d0e26aaa6b51159c7c2d8be0bbcda374bb0070183a634b0f10208243e663f705c28469b2005c4099a261eab06a4
+Description: A package containing a negotiating publisher and subscription.
+
+Package: ros-humble-ntrip-client-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.03.07.12.59
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-ntrip-client
+Maintainer: Nick Hortovanyi <nick@aussierobots.com.au>
+Installed-Size: 1216
+Depends: ros-humble-ntrip-client (= 0-2024.03.07.12.59)
+Filename: ./ros-humble-ntrip-client-dbgsym_0-2024.03.07.12.59_amd64.ddeb
+Size: 1134326
+MD5sum: 72b0a442ef7e2e4631322285e7ed73b4
+SHA1: d5455e7452cd504426fc974575116c903ac8a99a
+SHA256: 74b6b117c4fe3710a90f98ddd4383f715444e754eabe0491d43d1d418654f75a
+SHA512: 402b9434c51b6985d6c9c7e615284139e4d4e32b6bfc52ec80d9a3f718385a31fea39fc54ca5f21dd173713806cc7c7d67e35ec945d6081f2ed174f3835fe36b
+Description: debug symbols for ros-humble-ntrip-client
+Build-Ids: 383d2f6e6cd035b4012175bf1b95c9c3f819a5b3 9147c5d575328b2721f637b78c7096ce700b97f4
+
+Package: ros-humble-ntrip-client
+Architecture: amd64
+Version: 0-2024.03.07.12.59
+Priority: optional
+Section: misc
+Maintainer: Nick Hortovanyi <nick@aussierobots.com.au>
+Installed-Size: 256
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-libcurl-vendor, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rtcm-msgs, ros-humble-std-msgs
+Filename: ./ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.deb
+Size: 68446
+MD5sum: b6035db5e60034c069d2659247176b57
+SHA1: bab9cffc1d9b297b354b4c1c879e16264e5bcf1a
+SHA256: 9b35a7d6401d9ce81513d2fce5baa990dd20d5a097e86153e32a08254590d64e
+SHA512: 69ed67693bfaa9622614b35fddba3fd199d21779563f403326b09e0503f5001e8a4186dba8f921d929a41d3bea8cb477a1026d387d636da9eecd81550a0397e0
+Homepage: https://github.com/aussierobots/ublox_dgnss
+Description: Publishes RTCM ntrip messages from an external mountpoint
+
+Package: ros-humble-ublox-gps-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-ublox-gps
+Maintainer: Gareth Cross <gcross.code@icloud.com>
+Installed-Size: 19988
+Depends: ros-humble-ublox-gps (= 2.3.0-17-g9ed596c-2024.03.07.13.06)
+Filename: ./ros-humble-ublox-gps-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.ddeb
+Size: 17901426
+MD5sum: f1984278dc71e3e7d639546444a484d6
+SHA1: a32f7a9c298839278592f6db8eee4798492af030
+SHA256: 51090cc2020857698814b8824a9610fe24a94220a42f8d09be9b83547d7f8223
+SHA512: f304fe593932430a11f6318873a176cff7c486edf1276f7cb4176086f148c5cac36c388cb48c1826e408bd07512d9582cf28212b09c98a4fda66b9a87f9b7fbe
+Description: debug symbols for ros-humble-ublox-gps
+Build-Ids: 138f77c474b1278c70cd44b6621a24a9edd867c8 912358da03e5d192e69bf8032e4233d6da3c7d53 f7fb02f12ce1ecd29e48deff7f95b0faef92159d
+
+Package: ros-humble-ublox-gps
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.06
+Priority: optional
+Section: misc
+Maintainer: Gareth Cross <gcross.code@icloud.com>
+Installed-Size: 3262
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libasio-dev, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-geometry-msgs, ros-humble-nmea-msgs, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rtcm-msgs, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2, ros-humble-ublox-msgs, ros-humble-ublox-serialization
+Filename: ./ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.deb
+Size: 671386
+MD5sum: bbc010070fcecbf4c9bceb74b0f54131
+SHA1: edc17e7c0f56e4464d412d7c3275a6e7fc9bae80
+SHA256: 764d394fe864fc9e75ef719d27016a61a2bc627353cf8d1cff3b906e04461c9d
+SHA512: 34242616a5eb8cf373b027068a65cccc2fc2a736c66e3f279ebf74d057120636d665b9d298d61b16c4fb7fc504640ffd92e8105d5f0afb49a7cd7a27ef536623
+Homepage: http://ros.org/wiki/ublox
+Description: Driver for u-blox GPS devices.
+
+Package: ros-humble-ublox-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.02
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-ublox-msgs
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Installed-Size: 7886
+Depends: ros-humble-ublox-msgs (= 2.3.0-17-g9ed596c-2024.03.07.13.02)
+Filename: ./ros-humble-ublox-msgs-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.ddeb
+Size: 5821720
+MD5sum: 91c291e813cab5ca793e298a5457ff28
+SHA1: 9a131b10a30e09c7ff52840c99eb519dfe9a4871
+SHA256: 77813f512decba2604060a5a2b00860301b1c56d7b65d3263e4e30d2d10c130d
+SHA512: 2c77a9e01804d715d132e69b0910e1eceb3ed606ba845241cc9610c601fe338b9df96fa07459c1dd7f01cc8536f0f5069c32efa89cff14d36cc0598e83dea359
+Description: debug symbols for ros-humble-ublox-msgs
+Build-Ids: 3f2e9464720608718b57dadc5d819852a3c50c57 4766ecbeb2a14f7f4627185cb50c27f7d7f397b9 4cdc7404f2b2e3a959b54e524aaa240bc9745e9d 54fb8019e509e13d0ac182d92fee0077f88c9dc0 5bbde0731b834b2af21c476fabf02d6aad19a8d0 67f0f97c5fa73199fc7352fbdfb93ef6a551ea56 ab121bddbb843c7c86575180a0c23818a336ffde b37e11504ffdb23148d82399aa890258234e4a62 bce85a48f22f992836ba0f30524560631bf4406c c3f2321a0e702122618dead690839f60ab310de3 cf8693bf8ecc293e42cc3f3226eb788c753ae44a d0adbb4a7e876643173e2bc859c6c4b104146a6b f49a3c5c47183b312c328f73806923451ec2a20c
+
+Package: ros-humble-ublox-msgs
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.02
+Priority: optional
+Section: misc
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Installed-Size: 11815
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5), ros-humble-fastcdr, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-ublox-serialization
+Filename: ./ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.deb
+Size: 732234
+MD5sum: 42ddf0fb67421a54e6b672883473a9f6
+SHA1: 95d54b240d9937727b7aa046796c3cdfd8be5dd7
+SHA256: 7e992252ae766c984eaf9498c3ba093c925d9f5b10d638367fe6150a6dd69770
+SHA512: 5b6c5ec8a38aa97937583afd1e07f1e3f8b0365931e9c7c835fad1596d1e1252a43a792dc6bc3500d4b01b0aa9c070019c335869f3874d1927b923f7690af333
+Homepage: http://ros.org/wiki/ublox
+Description: ublox_msgs contains raw messages for u-blox GNSS devices.
+
+Package: ros-humble-ublox-serialization
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.01
+Priority: optional
+Section: misc
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Installed-Size: 74
+Filename: ./ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.deb
+Size: 13198
+MD5sum: a80e4246067e95a6f631d0157164924d
+SHA1: ca17da2c6c14e063c016d48c75d0816f268f0a5d
+SHA256: 988d3043f3291af33db717accb36782883f29d349c8ea35d92e283a87d1b4849
+SHA512: 3c14057c468fdbf2d465ae96315474438db01bc888f657a85be5a19e9bc6021ea9b9dd5954d2fc2f761b2edaf25a90e87a6d2995a0171963abee8f7afd2a0a6b
+Homepage: http://ros.org/wiki/ublox
+Description: ublox_serialization provides header files for serialization of ROS messages to and from u-blox message format.
+
+Package: ros-humble-ublox
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.00
+Priority: optional
+Section: misc
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Installed-Size: 40
+Depends: ros-humble-ublox-gps, ros-humble-ublox-msgs, ros-humble-ublox-serialization
+Filename: ./ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.deb
+Size: 5318
+MD5sum: 59605bfaea6c8c76fd045fd498c497de
+SHA1: 9ad7390d998d1867696341bcfc75650ddeeee7ea
+SHA256: 564538049df33b4e1dc7e0aa6369d7a5d47996b7e720cbfebe422af1c7b2258c
+SHA512: fef49908cef96994a7f2f3bcde642f182aaa9fd86c6ba3724030605680061d4e3a17d90ec1f42356b4c11b85fac20a60136bea6017f8dd6db0c1ba8f43d28663
+Homepage: http://wiki.ros.org/ublox
+Description: Provides a ublox_gps node for u-blox GPS receivers, messages, and serialization packages for the binary UBX protocol.
+

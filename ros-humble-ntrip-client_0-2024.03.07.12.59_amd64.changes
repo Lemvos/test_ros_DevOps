@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Sun, 05 Nov 2023 00:00:00 -0000
+Source: ros-humble-ntrip-client
+Binary: ros-humble-ntrip-client
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.03.07.12.59
+Distribution: jammy
+Urgency: high
+Maintainer: Nick Hortovanyi <nick@aussierobots.com.au>
+Changed-By: Nick Hortovanyi <nick@aussierobots.com.au>
+Description:
+ ros-humble-ntrip-client - Publishes RTCM ntrip messages from an external mountpoint
+Changes:
+ ros-humble-ntrip-client (0-2024.03.07.12.59) jammy; urgency=high
+Checksums-Sha1:
+ d5455e7452cd504426fc974575116c903ac8a99a 1134326 ros-humble-ntrip-client-dbgsym_0-2024.03.07.12.59_amd64.ddeb
+ db0e1ac9b7a58edd837dc47f54d536522543f322 16520 ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.buildinfo
+ bab9cffc1d9b297b354b4c1c879e16264e5bcf1a 68446 ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.deb
+Checksums-Sha256:
+ 74b6b117c4fe3710a90f98ddd4383f715444e754eabe0491d43d1d418654f75a 1134326 ros-humble-ntrip-client-dbgsym_0-2024.03.07.12.59_amd64.ddeb
+ 240e6e68d8a624f3f56154366124ec664098401ce972ccf967469278c71d76f4 16520 ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.buildinfo
+ 9b35a7d6401d9ce81513d2fce5baa990dd20d5a097e86153e32a08254590d64e 68446 ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.deb
+Files:
+ 72b0a442ef7e2e4631322285e7ed73b4 1134326 debug optional ros-humble-ntrip-client-dbgsym_0-2024.03.07.12.59_amd64.ddeb
+ 2a0c60a493010940143b2597b5c867d2 16520 misc optional ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.buildinfo
+ b6035db5e60034c069d2659247176b57 68446 misc optional ros-humble-ntrip-client_0-2024.03.07.12.59_amd64.deb

@@ -1,0 +1,24 @@
+negotiated_interfaces:
+  ubuntu:
+  - ros-humble-negotiated-interfaces
+negotiated:
+  ubuntu:
+  - ros-humble-negotiated
+negotiated_examples:
+  ubuntu:
+  - ros-humble-negotiated-examples
+ntrip_client:
+  ubuntu:
+  - ros-humble-ntrip-client
+ublox:
+  ubuntu:
+  - ros-humble-ublox
+ublox_serialization:
+  ubuntu:
+  - ros-humble-ublox-serialization
+ublox_msgs:
+  ubuntu:
+  - ros-humble-ublox-msgs
+ublox_gps:
+  ubuntu:
+  - ros-humble-ublox-gps

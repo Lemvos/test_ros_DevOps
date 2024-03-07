@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 13 Apr 2022 00:00:00 -0000
+Source: ros-humble-ublox
+Binary: ros-humble-ublox
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.00
+Distribution: jammy
+Urgency: high
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Changed-By: Veronica Lane <vmlane@alum.mit.edu>
+Description:
+ ros-humble-ublox - Provides a ublox_gps node for u-blox GPS receivers, messages, and
+Changes:
+ ros-humble-ublox (2.3.0-17-g9ed596c-2024.03.07.13.00) jammy; urgency=high
+Checksums-Sha1:
+ e66f57de9f9658cfd246a191ef137b6252a71d77 9200 ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.buildinfo
+ 9ad7390d998d1867696341bcfc75650ddeeee7ea 5318 ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.deb
+Checksums-Sha256:
+ 198ce8ad0e098ea94a770a32ae7f319309a737cb05a954e1ba2fff076610e99b 9200 ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.buildinfo
+ 564538049df33b4e1dc7e0aa6369d7a5d47996b7e720cbfebe422af1c7b2258c 5318 ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.deb
+Files:
+ a219f21674630f0fb74fd61bc313e4c7 9200 misc optional ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.buildinfo
+ 59605bfaea6c8c76fd045fd498c497de 5318 misc optional ros-humble-ublox_2.3.0-17-g9ed596c-2024.03.07.13.00_amd64.deb

@@ -1,0 +1,13 @@
+repositories:
+  negotiated:
+    type: git
+    url: https://github.com/osrf/negotiated.git
+    version: eac198b55dcd052af5988f0f174902913c5f20e7
+  ntrip_client:
+    type: git
+    url: https://github.com/Lemvos/ntrip_client.git
+    version: 760974190e78ab0638421f0e47ce66aa9c88e063
+  ublox_ros2_driver:
+    type: git
+    url: https://github.com/Lemvos/ublox_ros2_Driver.git
+    version: 9ed596cc5220968fd6a708a3f2a3751e31b2eb3f

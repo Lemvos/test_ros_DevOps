@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 13 Apr 2022 00:00:00 -0000
+Source: ros-humble-ublox-msgs
+Binary: ros-humble-ublox-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.02
+Distribution: jammy
+Urgency: high
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Changed-By: Veronica Lane <vmlane@alum.mit.edu>
+Description:
+ ros-humble-ublox-msgs - ublox_msgs contains raw messages for u-blox GNSS devices.
+Changes:
+ ros-humble-ublox-msgs (2.3.0-17-g9ed596c-2024.03.07.13.02) jammy; urgency=high
+ .
+   * Revamp the building of the driver for modern ROS 2 practices.
+   * Contributors: Chao Qu, Chris Lalancette
+Checksums-Sha1:
+ 9a131b10a30e09c7ff52840c99eb519dfe9a4871 5821720 ros-humble-ublox-msgs-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.ddeb
+ 7d8c24120fbb2476d8908a9ce6d46f378b7c9524 13020 ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.buildinfo
+ 95d54b240d9937727b7aa046796c3cdfd8be5dd7 732234 ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.deb
+Checksums-Sha256:
+ 77813f512decba2604060a5a2b00860301b1c56d7b65d3263e4e30d2d10c130d 5821720 ros-humble-ublox-msgs-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.ddeb
+ 905d436607f8fd4e57ae67436569d4ba116bbf5bed6b9918d6593864b262e1e7 13020 ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.buildinfo
+ 7e992252ae766c984eaf9498c3ba093c925d9f5b10d638367fe6150a6dd69770 732234 ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.deb
+Files:
+ 91c291e813cab5ca793e298a5457ff28 5821720 debug optional ros-humble-ublox-msgs-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.ddeb
+ a58f899ac8c1df998a7137bb42a5eee4 13020 misc optional ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.buildinfo
+ 42ddf0fb67421a54e6b672883473a9f6 732234 misc optional ros-humble-ublox-msgs_2.3.0-17-g9ed596c-2024.03.07.13.02_amd64.deb

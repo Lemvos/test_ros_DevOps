@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Wed, 13 Apr 2022 00:00:00 -0000
+Source: ros-humble-ublox-gps
+Binary: ros-humble-ublox-gps
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.06
+Distribution: jammy
+Urgency: high
+Maintainer: Gareth Cross <gcross.code@icloud.com>
+Changed-By: Gareth Cross <gcross.code@icloud.com>
+Description:
+ ros-humble-ublox-gps - Driver for u-blox GPS devices.
+Changes:
+ ros-humble-ublox-gps (2.3.0-17-g9ed596c-2024.03.07.13.06) jammy; urgency=high
+ .
+   * Revamp the building of the driver for modern ROS 2 practices.
+   * Fix parameter declaration types. (#146 <https://github.com/KumarRobotics/ublox/issues/146>)
+   * Add the types to declared parameters. (#141 <https://github.com/KumarRobotics/ublox/issues/141>)
+   * Add UDP support (#140 <https://github.com/KumarRobotics/ublox/issues/140>)
+   * add Ublox ZED_F9P config (#131 <https://github.com/KumarRobotics/ublox/issues/131>)
+   * Fix warnings in launch.
+   * [FEAT]: add launch and config directories to 'intall' package to avoid wrong launch location (#125 <https://github.com/KumarRobotics/ublox/issues/125>)
+   * Fix wrong variable name in launch (#120 <https://github.com/KumarRobotics/ublox/issues/120>)
+   * Contributors: CHAIWIT PHONKHEN, Chao Qu, Chris Lalancette, Daisuke Nishimatsu, Davidson Daniel Rojas Cediel, Kevin Hallenbeck
+Checksums-Sha1:
+ a32f7a9c298839278592f6db8eee4798492af030 17901426 ros-humble-ublox-gps-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.ddeb
+ 2fd82d1aeaecd2edca1bc213e96a0ebb002e5738 15590 ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.buildinfo
+ edc17e7c0f56e4464d412d7c3275a6e7fc9bae80 671386 ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.deb
+Checksums-Sha256:
+ 51090cc2020857698814b8824a9610fe24a94220a42f8d09be9b83547d7f8223 17901426 ros-humble-ublox-gps-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.ddeb
+ c5c166127d137236932f2fa69b70b3b0afd74708a1e3918093a0451192798403 15590 ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.buildinfo
+ 764d394fe864fc9e75ef719d27016a61a2bc627353cf8d1cff3b906e04461c9d 671386 ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.deb
+Files:
+ f1984278dc71e3e7d639546444a484d6 17901426 debug optional ros-humble-ublox-gps-dbgsym_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.ddeb
+ b3d936c626179147ade984064d2e5713 15590 misc optional ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.buildinfo
+ bbc010070fcecbf4c9bceb74b0f54131 671386 misc optional ros-humble-ublox-gps_2.3.0-17-g9ed596c-2024.03.07.13.06_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 13 Apr 2022 00:00:00 -0000
+Source: ros-humble-ublox-serialization
+Binary: ros-humble-ublox-serialization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.3.0-17-g9ed596c-2024.03.07.13.01
+Distribution: jammy
+Urgency: high
+Maintainer: Veronica Lane <vmlane@alum.mit.edu>
+Changed-By: Veronica Lane <vmlane@alum.mit.edu>
+Description:
+ ros-humble-ublox-serialization - ublox_serialization provides header files for serialization of RO
+Changes:
+ ros-humble-ublox-serialization (2.3.0-17-g9ed596c-2024.03.07.13.01) jammy; urgency=high
+ .
+   * Revamp the building of the driver for modern ROS 2 practices.
+   * Contributors: Chao Qu, Chris Lalancette
+Checksums-Sha1:
+ b76395d3fcad253dbb921f94049c4720bf27a674 9273 ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.buildinfo
+ ca17da2c6c14e063c016d48c75d0816f268f0a5d 13198 ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.deb
+Checksums-Sha256:
+ 1cbe90c19cb73cce63aa3fd4974e0107998cd426aaf89e72f62255772d6e0238 9273 ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.buildinfo
+ 988d3043f3291af33db717accb36782883f29d349c8ea35d92e283a87d1b4849 13198 ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.deb
+Files:
+ 6fd821811249f6b487c25e81a936f4a9 9273 misc optional ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.buildinfo
+ a80e4246067e95a6f631d0157164924d 13198 misc optional ros-humble-ublox-serialization_2.3.0-17-g9ed596c-2024.03.07.13.01_amd64.deb
